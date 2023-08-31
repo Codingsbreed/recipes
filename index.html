@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This is the webpage i create for recipes ">
+    <meta name="author" content="Adebayo kehinde">
+    <meta name="keywords" content="recipes #food #foodie #foodporn #cooking #recipe #foodphotography #instafood #foodblogger #yummy #healthyfood #homemade #foodstagram #delicious #easyrecipes #foodlover #tasty #healthy #recipeoftheday #healthylifestyle #healthyrecipes #dinner #homecooking #vegan #instagood #chef #cook #foodies #breakfast #foodblogresturant, cakes, chicken, soups, food, eatry,">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="shortcut icon" href="img/R logo.jpg">
+    <title>Home - Recipes</title>
+    <style>
+        p{
+            font-size: 1.5em !important;
+        }
+
+        div.card-content > p{
+            font-size: 20px !important;
+        }
+    </style>
+</head>
+<div id="top"></div>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper white scrollspy">
+                <div class="container navbar">
+                    <a href="https://recipes-olive.vercel.app/index.html" class="brand-logo">
+                        <img src="img/logo (3).png" alt="" width="150px">
+                    </a>
+                    <a href="https://recipes-olive.vercel.app/#mobile-links" class="sidenav-trigger">
+                        <i class="material-icons orange-text text-darken-4">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#top" class="orange-text text-darken-4 scrollspy"><strong>Home</strong> </a></li>
+                        <li><a href="#cakes" class="orange-text text-darken-4 scrollspy"><strong>Cakes</strong> </a></li>
+                        <li><a href="#soups" class="orange-text text-darken-4 scrollspy"><strong>Soups</strong> </a></li>
+                        <li><a href="#chicken" class="orange-text text-darken-4 scrollspy"><strong>Chicken</strong> </a></li>
+                        <li><a href="#customers" class="orange-text text-darken-4 scrollspy"><strong>Customers</strong> </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    <ul class="sidenav" id="mobile-links">
+        <li><a class="orange-text text-darken-4" href="#home" style="font-weight: bold;">Home</a></li>
+        <li><a class="orange-text text-darken-4" href="#cakes" style="font-weight: bold;">Cakes</a></li>
+        <li><a class="orange-text text-darken-4" href="#soups" style="font-weight: bold;">Soups</a></li>
+        <li><a class="orange-text text-darken-4" href="#chicken" style="font-weight: bold;">Chicken</a></li>
+        <li><a class="orange-text text-darken-4" href="#customers" style="font-weight: bold;">Customers</a></li>
+    </ul>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/cake_fruit.jpg" alt="" class="responsive-img materialboxed">
+            </li>
+            <li>
+                <img src="img/shrimp_soup.jpg" alt="" class="responsive-img materialboxed">
+            </li>
+            <li>
+                <img src="img/chicken_3.jpg" alt="" class="responsive-img materialboxed">
+            </li>
+            <li>
+                <img src="img/dessert_chocolate.jpg" alt="" class="responsive-img materialboxed">
+            </li>
+            <li>
+                <img src="img/ginger_cake.webp" alt="" class="responsive-img materialboxed">
+            </li>
+        </ul>
+     </div>
+     <div class="container">
+        <h3 class="orange-text text-darken-4">Hello there, foodies!</h3>
+            <p>You smart, you loyal, you a genius. You see the hedges, how I got it shaped up? It's important to shape up your hedges, it's like getting a haircut, stay fresh. I'm giving you cloth talk, cloth.
+                Special cloth alert, cut from a special cloth. In life there will be road blocks but we will over come it. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key.</p>
+                <hr>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text"> <span>CAKES!</span></div>
+                                <div class="collapsible-body">
+                                    <img src="img/sponge_cake.webp" alt="" class="responsive-img materialboxed">
+                                    <p>I'm giving you cloth talk,cloth. special cloth alert, cut from a special cloth. it's on you how you want to live your life</p>
+                                    <a href="" class="btn btn-flat orange darken-4 white-text">ALL CAKE RECIPES</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l4">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text"> <span>ALL SOUP RECIPES</span></div>
+                                <div class="collapsible-body">
+                                    <img src="img/mexican_soup.webp" alt="" class="responsive-img materialboxed">
+                                    <p>The key to success is to keep your head above the water, never give up. The key is to drink fresh coconut, special cloth talk</p>
+                                    <a href="" class="btn btn-flat orange darken-4 white-text">ALL CHICKEN RECIPES</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l4">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text"> <span>CHICKEN</span></div>
+                                <div class="collapsible-body">
+                                    <img src="img/chicken_8.webp" alt="" class="responsive-img materialboxed">
+                                    <p>A major key, never panic. Don't panic, when it gets crazy and rough, don't panic, stay calm,  the key is to drink some fresh</p>
+                                    <a href="" class="btn btn-flat orange darken-4 white-text">ALL CHICKEN RECIPES</a>
+                                </div>
+                                <div id="customers"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <h3 class="orange-text text-darken-4 center">What Our Customers Say...</h3>
+            <div class="container">
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle orange darken-4">person</i>
+                         <span class="title orange-text darken-4" style="font-weight: bold;">Ryan Kingfisher</span>
+                        <h6>"In life there will be road blocks but we will over come it, Hammock talk come soon. Let's see what chef Dee got that they don't want us to eat."</h6>
+                     </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle orange darken-4">person</i>
+                         <span class="title orange-text darken-4" style="font-weight: bold;">Jessica Ulman</span>
+                        <h6>"They will try to close the door on you, just open it, look at the sunset, life is amazing, life is beautiful, life is what you make it</h6>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle orange darken-4">person</i>
+                         <span class="title orange-text darken-4" style="font-weight: bold;">Olubenga Taiwo</span>
+                        <h6>"Learning is cool, but knowing is better, and i know the key to success. The key to more success is to have a lot of pillows."</h6>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle orange darken-4">person</i>
+                         <span class="title orange-text darken-4" style="font-weight: bold;">Kugama Namastuki</span>
+                        <h6>"Put it this way it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and i'm never giving up, i'm just getting started."</h6>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons circle orange darken-4">person</i>
+                         <span class="title orange-text darken-4" style="font-weight: bold;">Lafeez Abdul</span>
+                        <h6>"You see that bamboo behind me though, you see that bamboo? Ain't nothing like bamboo. Bless up i'm upto something</h6>
+                    </li>
+                </ul>
+            </div>
+         <!-- home -->
+    </header>
+    <main>
+        <div id="cakes"></div>
+         <!-- cakes -->
+         <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/cake.jpeg" alt="" class="responsive-img" style="width: 100%;">
+            </div>
+         </div>
+         <div class="container">
+             <h3 class="orange-text text-darken-4 left">Cakes</h3><br><br><br><br><br>
+             <p>The other day the grass was brown, now it's green because i ain't give up. Never surrender. The key is to enjoy life, because they want you to enjoy life. I promise you they don't want you to jetski.</p>
+            </div>
+         <section class="section">
+            <div class="container">
+                <div class="row">  
+                 <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/sponge_cake.webp" alt="" class="responsive-img materialboxed">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Sponge cake</h5>
+                                <p>Give thanks to the most high, the weather is amazing.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">INGREDIENTS</a>
+                                    <a href="#">BAKE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/velvet_cake.webp" alt="" class="responsive-img materialboxed">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Velvet Cake</h5>
+                                <p>Walk with me through the pathway of more success.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">INGREDIENTS</a>
+                                    <a href="#">BAKE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/courgette_cake.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Courgette Cake</h5>
+                                <p>They will try to close the on you, just open it. Lion.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">INGREDIENTS</a>
+                                    <a href="#">BAKE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chocolate_2.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chocolate Cake</h5>
+                                    <p>When you get out of the shower, always dry your back.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/coffeeslab_cake.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Coffee Slab Cake</h5>
+                                    <p>To succeed you must believe. Special cloth talk!</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/pistachio_cake.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Pistachio_Cake</h5>
+                                    <p>Never complain, complaining is a weak emotion</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/polenta_cake.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Polenta Cake</h5>
+                                    <p>Lion i'm up to something. they don't want us to eat.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/buttermilk_cake.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Butter Milk Cake</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chocolate_1.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Peanut Cake</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">INGREDIENTS</a>
+                                        <a href="#">BAKE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <div id="soups"></div>
+         <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/soup.jpeg" alt="" class="responsive-img" style="width: 100%;">
+            </div>
+         </div>
+         <div class="container">
+             <h3 class="orange-text text-darken-4 left">Soup</h3><br><br><br><br><br>
+             <p>The other day the grass was brown, now it's green because i ain't give up. Never surrender. The key is to enjoy life, because they want you to enjoy life. I promise you they don't want you to jetski.</p>
+            </div>
+         <section class="section">
+            <div class="container">
+                <div class="row">  
+                 <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/lentil_soup.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Lentil Soup</h5>
+                                <p>Give thanks to the most high, the weather is amazing.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">COOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/olive_soup.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Olive Soup</h5>
+                                <p>Walk with me through the pathway of more success.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">COOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/miso_soup.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Miso Soup</h5>
+                                <p>They will try to close the on you, just open it. Lion.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">COOK NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chilli_soup.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chilli Soup</h5>
+                                    <p>When you get out of the shower, always dry your back.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/pumpkin_soup.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Coffee Slab Cake</h5>
+                                    <p>To succeed you must believe. Special cloth talk!</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/Winter soup.jpeg" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Winter Soup</h5>
+                                    <p>Never complain, complaining is a weak emotion</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/tom_soup.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Tom Soup</h5>
+                                    <p>Lion i'm up to something. they don't want us to eat.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/morroco_soup.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Morrocan Soup</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/mexican_soup.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Mexican Soup</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">COOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <div id="chicken"></div>
+         <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/chicken.jpeg" alt="" class="responsive-img" style="width: 100%;">
+            </div>
+         </div>
+         <div class="container">
+             <h3 class="orange-text text-darken-4 left">Chicken</h3><br><br><br><br><br>
+             <p>The other day the grass was brown, now it's green because i ain't give up. Never surrender. The key is to enjoy life, because they want you to enjoy life. I promise you they don't want you to jetski.</p>
+            </div>
+         <section class="section">
+            <div class="container">
+                <div class="row">  
+                 <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/chicken_5.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Oregano Wings</h5>
+                                <p>Give thanks to the most high, the weather is amazing.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">PREPARE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/chicken_11.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Mashed Wings</h5>
+                                <p>Walk with me through the pathway of more success.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">PREPARE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l4">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img src="img/chicken_1.webp" alt="" class="responsive-img materialboxed ">
+                            <div class="card-content">
+                                <h5 class="orange-text text-darken-4">Buttered Wings</h5>
+                                <p>They will try to close the on you, just open it. Lion.</p>
+                                <div class="card-action orange-text text-darken-4">
+                                    <a href="#">CONTENTS</a>
+                                    <a href="#">PREPARE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chicken_8.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Yogurt Chicken</h5>
+                                    <p>When you get out of the shower, always dry your back.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chicken_10.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chicken Tikka</h5>
+                                    <p>To succeed you must believe. Special cloth talk!</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/chicken_2.webp" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chicken Couscous</h5>
+                                    <p>Never complain, complaining is a weak emotion</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/Caramel chicken.jpeg" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Caramel Chicken</h5>
+                                    <p>Lion i'm up to something. they don't want us to eat.</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/Chicken ramen.jpeg" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chicken Ramen</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img src="img/Chicken saag.jpeg" alt="" class="responsive-img materialboxed ">
+                                <div class="card-content">
+                                    <h5 class="orange-text text-darken-4">Chicken Saag</h5>
+                                    <p>When you get out of the shower always dry your back</p>
+                                    <div class="card-action orange-text text-darken-4">
+                                        <a href="#">CONTENTS</a>
+                                        <a href="#">PREPARE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- soup -->
+         <!-- chicken -->
+    </main>
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/logo (3).png" alt="" class="responsive-img" width="50%">
+                    <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nemo minima neque quaerat dolore dolor aliquid eum esse sequi repellendus.</h6>
+                </div>
+                <div class="col s12 l4"></div>
+                <div class="col s12 l4">
+                    <h6>Quick Links</h6>
+                    <ul class="white-text">
+                        <li><a class="white-text"  href="#top">Back to top</a></li>
+                        <li><a class="white-text" href="#cakes">Cakes</a></li>
+                        <li><a class="white-text" href="#soups">Soup</a></li>
+                        <li><a class="white-text"  href="#chicken">Chicken</a></li>
+                        <li><a class="white-text"  href="#customers">Customers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright orange darken-4">
+            <div class="container">
+                <h6 class="center-align">Copyright 2023 Kenny</h6>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $('.slider').slider();
+            
+            $('.collapsible').collapsible();
+
+            $('.parallax').parallax();
+           
+            $('.materialboxed').materialbox();
+           
+            $('.sidenav').sidenav();
+            
+
+         } );
+    </script>
+    
+</body>
+</html>
+
+
